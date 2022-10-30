@@ -1,0 +1,115 @@
+
+*{
+    text-decoration: none;
+}
+.box {
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:xx-large;
+    color: rgb(15, 233, 160);
+    font-weight:bolder;
+    
+    }
+
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
+    
+   }
+
+.bar a {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    color: rgb(87, 84, 84);
+}
+.bar a:hover{
+    color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+.logo {
+    justify-content: center;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:xx-large;
+    color: rgb(15, 233, 160);
+    font-weight:bolder;
+    text-align: center;
+    
+
+}
+
+.text1 {
+    border: 1px solid white);
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.text2 {
+    border: 1px solid white);
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icon1 {
+    border: 1px solid rgb(15, 233, 160); ;
+    border-radius: 20px;
+    width: 260px;
+    height: 250px;
+    text-align: center;
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(3, 139, 121);
+    color: rgb(253, 253, 253);
+    padding: 30px;
+
+}
+.icon2 {
+    border: 1px solid rgb(15, 233, 160); ;
+    border-radius: 20px;
+    width: 260px;
+    height: 250px;
+    text-align: center;
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(3, 139, 121);
+    color: rgb(253, 253, 253);
+    padding: 30px;
+
+}
+.icon3 {
+    border: 1px solid rgb(15, 233, 160); ;
+    border-radius: 20px;
+    width: 260px;
+    height: 250px;
+    text-align: center;
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(3, 139, 121);
+    color: rgb(253, 253, 253);
+    padding: 30px;
+
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
