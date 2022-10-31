@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 *{
     text-decoration: none;
@@ -5,7 +6,7 @@
 .box {
     margin: 20px;
     padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:xx-large;
     color: rgb(15, 233, 160);
     font-weight:bolder;
@@ -21,27 +22,24 @@
    }
 
 .bar a {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 20px;
     color: rgb(87, 84, 84);
 }
 .bar a:hover{
     color: aquamarine;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .logo {
-    margin: 20px;
-    padding: 20px;
-    align-items: center;
+   display: flex;
 }
 
 .logo {
     justify-content: center;
 }
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:xx-large;
     color: rgb(15, 233, 160);
     font-weight:bolder;
@@ -53,14 +51,16 @@ h2 {
 .text1 {
     border: 1px solid white);
     width: 500px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
     
     
 }
 .text2 {
     border: 1px solid white);
     width: 500px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
 }
 
 .text {
@@ -75,7 +75,7 @@ h2 {
     height: 250px;
     text-align: center;
     font-size:x-large;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(3, 139, 121);
     color: rgb(253, 253, 253);
     padding: 30px;
@@ -88,8 +88,8 @@ h2 {
     height: 250px;
     text-align: center;
     font-size:x-large;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(3, 139, 121);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(90, 9, 219);
     color: rgb(253, 253, 253);
     padding: 30px;
 
@@ -101,8 +101,8 @@ h2 {
     height: 250px;
     text-align: center;
     font-size:x-large;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(3, 139, 121);
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(1, 19, 16);
     color: rgb(253, 253, 253);
     padding: 30px;
 
@@ -112,4 +112,80 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+
+    
+    
+
+.logoSite {
+    display:flex;
+    justify-content: center;
+      align-items: center;
+      margin: 20px;
+       
+}
+
+.ong1 {
+    border: 1px solid teal;
+    width: 350px;
+    height: 350px;
+    text-align: justify;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ong2 {
+    border: 1px solid teal;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.ong3 {
+    border: 1px solid teal;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.onglet {
+   
+  display: flex;
+   
+    
+}
+
+.ong4 {
+    border: 1px solid teal;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.ong5 {
+    border: 1px solid teal;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.ong6 {
+    border: 1px solid teal;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
 }
