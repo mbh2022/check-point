@@ -38,7 +38,7 @@
 .logo {
     justify-content: center;
 }
-h2 {
+.title1 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:xx-large;
     color: rgb(15, 233, 160);
@@ -109,28 +109,29 @@ h2 {
 }
 
 .icon {
+    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-
-    
-    
-
-.logoSite {
-    display:flex;
-    justify-content: center;
-      align-items: center;
-      margin: 20px;
-       
+.lien {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
 }
+    
 
+.onglet1 {
+    background: rgb(25, 170, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    
+}
 .ong1 {
     border: 1px solid teal;
-    width: 350px;
-    height: 350px;
-    text-align: justify;
+    width: 200px;
+    height: 250px;
+    text-align: center;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -153,39 +154,62 @@ h2 {
     
 }
 
-
-.onglet {
-   
-  display: flex;
-   
-    
+.logoSite {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    padding: 50px;
 }
 
-.ong4 {
-    border: 1px solid teal;
-    width: 250px;
-    height: 250px;
-    text-align: center;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    
+.grid-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 50px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    background-color: rgb(197, 255, 236);
 }
-.ong5 {
-    border: 1px solid teal;
-    width: 250px;
-    height: 250px;
-    text-align: center;
-    padding: 10px;
+
+.desc{
+    grid-row-start: 1;
+    grid-row-end: 3;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
-.ong6 {
-    border: 1px solid teal;
-    width: 250px;
-    height: 250px;
+
+.grid1{
+    background-color: white;
+    padding: 20px;
     text-align: center;
-    padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-   
-    
+}
+.grid2{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid3{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid4{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.discp2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    -ms-flex-align: center;
+    margin: 100px;
+    padding: 10px;
+}
+
+.gridcon1 {
+    display: flex;
 }
